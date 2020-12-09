@@ -7,8 +7,8 @@ import (
 	"github.com/spf13/viper"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
-	"log"
 	"reflect"
+	"log"
 )
 
 func ToPostgresURL() string {
@@ -35,7 +35,7 @@ func main() {
 
 func handleError(err error) {
 	fmt.Println(err)
-	log.Fatal(err)
+	//log.Fatal(err)
 }
 
 type Animal struct {
