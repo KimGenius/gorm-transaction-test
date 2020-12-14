@@ -34,7 +34,7 @@ func main() {
 
 func handleError(err error) {
 	fmt.Println(err)
-	//log.Fatal(err)
+	// log.Fatal(err)
 }
 
 type Animal struct {
